@@ -8,7 +8,7 @@ from llama_index.core.query_engine import PandasQueryEngine
 from pandasai import SmartDataframe
 from pandasai.llm.google_palm import GooglePalm
 from langchain_google_genai import ChatGoogleGenerativeAI
-from prompt import new_prompt, instruction_str
+#from prompt import new_prompt, instruction_str
 
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
